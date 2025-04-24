@@ -1,0 +1,7 @@
+{
+  "name": "workout-logger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
