@@ -1,0 +1,18 @@
+<!-- workouts.page.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>My Workouts</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list *ngIf="workouts.length > 0">
+    <ion-item *ngFor="let w of workouts">
+      <ion-label>
+        <h2>{{ w.type }} — {{ w.date }} &#64; {{ w.time }}</h2>
+        <p>{{ w.duration }}min | Goal: {{ w.goal }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <p *ngIf="workouts.length === 0">No workouts planned yet.</p>
+</ion-content>

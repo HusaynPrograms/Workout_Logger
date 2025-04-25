@@ -1,0 +1,28 @@
+<!-- add-workout.page.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Plan Workout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-input [(ngModel)]="workout.type" placeholder="Workout Type"></ion-input>
+  <ion-input type="date" [(ngModel)]="workout.date"></ion-input>
+  <ion-input type="time" [(ngModel)]="workout.time"></ion-input>
+  <ion-input type="number" [(ngModel)]="workout.duration" placeholder="Duration (min)"></ion-input>
+  <ion-input [(ngModel)]="workout.goal" placeholder="Goal"></ion-input>
+  
+  <ion-button expand="block" (click)="save()">Save Workout</ion-button>
+  
+  <!-- internet data from API -->
+  <ion-card *ngIf="info">
+    <ion-card-header>
+      <ion-card-title>Internet Data</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>ID: {{ info.id }}</p>
+      <p>Title: {{ info.title }}</p>
+      <p>Status: {{ info.completed ? 'Done' : 'Not Done' }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
