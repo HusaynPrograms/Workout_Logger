@@ -16,15 +16,15 @@ The app functions as expected outside of PWA:
   
   How to Run:
 1. Clone the repository:  
-   git clone <repository_url>`
+   git clone (https://github.com/HusaynPrograms/Workout_Logger/tree/main/Desktop/Workout_Planner/workout-planne)
    
 2. Navigate into the project directory:
-   cd <project_directory>`
+   cd <project_directory>
    
 3. Install dependencies:  
-   npm install`
+   npm install
    
 4. Start the application in development mode:  
    ionic serve`
    
-   The app will be available at `http://localhost:8100`.
+   The app will be available at `http://localhost:8100
