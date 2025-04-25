@@ -1,7 +1,0 @@
-{
-  "name": "provinces-app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}
