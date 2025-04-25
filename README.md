@@ -13,6 +13,7 @@ The app functions as expected outside of PWA:
 
   Issue:
 - PWA Functionality: The app behaves as a regular web application in the browser. Further adjustments are planned to fully enable the PWA features. The button still exist and acre clickable on the pwa version but nothing shows on screen.
+- Ignore every file besides the desktop folder on the repo i consistenly ran into problems with github i couldnt fix.
   
   How to Run:
 1. Clone the repository:  
